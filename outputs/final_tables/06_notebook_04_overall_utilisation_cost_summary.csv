@@ -1,0 +1,15 @@
+metric,value
+Admissions,1218.0
+"Median length of stay, days",4.0
+"Mean length of stay, days",7.39
+"75th percentile length of stay, days",8.0
+Median total charges,91354.62
+Mean total charges,145211.99
+Median total costs,27048.66
+Mean total costs,41849.43
+Median cost per inpatient day,6882.16
+Median charge per inpatient day,24260.43
+"Emergency department admissions, %",37.8
+"Emergency admission type, %",40.3
+"Long-stay admissions, %",24.0
+"High-cost admissions, %",25.0

@@ -1,0 +1,40 @@
+section,finding,value,source_file
+Data readiness,total_cleaned_rows,50000,02_notebook_02_cohort_size_assessment.csv
+Data readiness,primary_cancer_rows,1218,02_notebook_02_cohort_size_assessment.csv
+Data readiness,broader_cancer_related_rows,1377,02_notebook_02_cohort_size_assessment.csv
+Data readiness,model_input_rows,1218,02_notebook_02_cohort_size_assessment.csv
+Data readiness,minimum_primary_cancer_rows_for_final_modelling,500,02_notebook_02_cohort_size_assessment.csv
+Data readiness,suitable_for_pipeline_testing,Yes,02_notebook_02_cohort_size_assessment.csv
+Data readiness,suitable_for_final_modelling,Yes,02_notebook_02_cohort_size_assessment.csv
+Data readiness,analysis_dataset_status,final_analysis_ready,02_notebook_02_cohort_size_assessment.csv
+Data readiness,recommended_next_step,Proceed to final descriptive analysis and modelling.,02_notebook_02_cohort_size_assessment.csv
+Descriptive cohort profile,Total admissions in cleaned sample,50000,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Primary cancer admissions,1218,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Broader cancer-related admissions,1377,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Primary cancer percentage of all admissions,2.44,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Median LOS among primary cancer admissions,4,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Median total charges among primary cancer admissions,91354.615,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Median total costs among primary cancer admissions,27048.66,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Most common primary cancer diagnosis group,Respiratory cancers,03_notebook_03_report_summary.csv
+Descriptive cohort profile,Dataset status,final_analysis_ready,03_notebook_03_report_summary.csv
+Utilisation and cost analysis,Primary cancer admissions analysed,1218,05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Median length of stay,4.0 days,05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Median total costs,"$27,049 ",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Median cost per inpatient day,"$6,882 ",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Emergency admission type percentage,40.30%,05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Long-stay threshold,>8.0 days,05_notebook_04_report_summary.csv
+Utilisation and cost analysis,High-cost threshold,">$47,065",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Severity group with highest median total costs,"Extreme ($70,573)",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Admission type with highest median total costs,"Elective ($27,898)",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,"Payer group with highest median total costs, among payer groups with n≥20","Medicaid ($33,757, n=206)",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,"Diagnosis group with highest median total costs, among groups with n≥20","Leukemia  -Acute myeloid leukemia (AML) ($76,435, n=27)",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,"Diagnosis group with highest median LOS, among groups with n≥20","Leukemia  -Acute myeloid leukemia (AML)  (18.0 days, n=27)",05_notebook_04_report_summary.csv
+Utilisation and cost analysis,Dataset status,final_analysis_ready,05_notebook_04_report_summary.csv
+Adjusted modelling,Model input rows,1218,09_notebook_05_report_summary.csv
+Adjusted modelling,Analysis mode,final_analysis_ready,09_notebook_05_report_summary.csv
+Adjusted modelling,Preferred LOS model,Negative Binomial GLM for length of stay,09_notebook_05_report_summary.csv
+Adjusted modelling,Primary modelling update,Poisson LOS model showed overdispersion; Negative Binomial is used for final LOS interpretation.,09_notebook_05_report_summary.csv
+Adjusted modelling,"Negative Binomial LOS model severity effect, IRR with 95% CI",1.89 (1.74 to 2.06),09_notebook_05_report_summary.csv
+Adjusted modelling,"Main cost model severity effect, cost ratio with 95% CI",1.65 (1.56 to 1.75),09_notebook_05_report_summary.csv
+Adjusted modelling,"High-cost model severity effect, OR with 95% CI",3.79 (3.06 to 4.69),09_notebook_05_report_summary.csv
+Adjusted modelling,Recommended final modelling action,"Use Negative Binomial LOS model, Gamma cost model and logistic high-cost model in the final report.",09_notebook_05_report_summary.csv

@@ -1,0 +1,10 @@
+metric,value
+Total admissions in cleaned sample,50000
+Primary cancer admissions,1218
+Broader cancer-related admissions,1377
+Primary cancer percentage of all admissions,2.44
+Median LOS among primary cancer admissions,4.0
+Median total charges among primary cancer admissions,91354.615
+Median total costs among primary cancer admissions,27048.66
+Most common primary cancer diagnosis group,RESPIRATORY CANCERS
+Dataset status,final_analysis_ready

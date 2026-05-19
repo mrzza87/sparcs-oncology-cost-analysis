@@ -1,0 +1,17 @@
+metric,value
+raw_file_name,sparcs_2024_extract_50000.csv
+raw_file_path,/Users/marissa/Desktop/portfolio/oncology-health-economics-portfolio/project_01_sparcs_cancer_utilisation_cost/data/raw/sparcs_2024_extract_50000.csv
+raw_rows,50000
+raw_columns,33
+cleaned_analysis_rows,50000
+cleaned_analysis_columns,49
+primary_cancer_rows,1218
+broader_cancer_related_rows,1377
+excluded_keyword_match_not_cancer_rows,364
+model_input_rows_primary_cancer,1218
+topcoded_los_rows,49
+invalid_los_rows,0
+missing_or_invalid_total_charges_rows,0
+missing_or_invalid_total_costs_rows,0
+unique_primary_cancer_ccsr_codes_in_data,25
+unique_broader_cancer_related_ccsr_codes_in_data,28

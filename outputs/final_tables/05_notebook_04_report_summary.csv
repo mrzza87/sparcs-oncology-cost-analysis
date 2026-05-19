@@ -1,0 +1,14 @@
+finding,value
+Primary cancer admissions analysed,1218
+Median length of stay,4.0 days
+Median total costs,"$27,049"
+Median cost per inpatient day,"$6,882"
+Emergency admission type percentage,40.3%
+Long-stay threshold,>8.0 days
+High-cost threshold,">$47,065"
+Severity group with highest median total costs,"Extreme ($70,573)"
+Admission type with highest median total costs,"Elective ($27,898)"
+"Payer group with highest median total costs, among payer groups with n≥20","Medicaid ($33,757, n=206)"
+"Diagnosis group with highest median total costs, among groups with n≥20","LEUKEMIA - ACUTE MYELOID LEUKEMIA (AML) ($76,435, n=27)"
+"Diagnosis group with highest median LOS, among groups with n≥20","LEUKEMIA - ACUTE MYELOID LEUKEMIA (AML) (18.0 days, n=27)"
+Dataset status,final_analysis_ready

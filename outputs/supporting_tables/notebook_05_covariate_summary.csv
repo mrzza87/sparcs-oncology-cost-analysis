@@ -1,0 +1,5 @@
+variable,description,mean_or_percent,missing_count
+severity_score,"Ordinal APR severity score, Minor=1 to Extreme=4",2.33,0
+is_emergency_admission_int,Emergency admission type indicator,40.3,0
+older_adult_70plus,Age group 70 or older,39.7,0
+haematologic_cancer,"Leukemia, lymphoma or myeloma diagnosis group",12.7,0

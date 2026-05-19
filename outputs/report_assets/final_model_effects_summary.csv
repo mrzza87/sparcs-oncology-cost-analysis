@@ -1,0 +1,12 @@
+model,term,term_label,effect_measure,estimate,ci_lower,ci_upper,p_value,source_file,formatted_effect
+Negative Binomial GLM for length of stay,severity_score,Severity score,Incidence rate ratio,1.8945,1.7416,2.0609,0.0,11_notebook_05_los_negative_binomial_model_results_report_facing.csv,1.89 (1.74 to 2.06)
+Negative Binomial GLM for length of stay,is_emergency_admission_int,Emergency admission,Incidence rate ratio,1.0058,0.8684,1.1649,0.9385,11_notebook_05_los_negative_binomial_model_results_report_facing.csv,1.01 (0.87 to 1.16)
+Negative Binomial GLM for length of stay,older_adult_70plus,Age 70 or older,Incidence rate ratio,1.1319,0.9753,1.3137,0.1029,11_notebook_05_los_negative_binomial_model_results_report_facing.csv,1.13 (0.98 to 1.31)
+Negative Binomial GLM for length of stay,haematologic_cancer,Haematologic cancer,Incidence rate ratio,1.6797,1.3986,2.0172,0.0,11_notebook_05_los_negative_binomial_model_results_report_facing.csv,1.68 (1.40 to 2.02)
+Gamma GLM with log link for total costs,severity_score,Severity score,Cost ratio,1.6523,1.5575,1.7528,0.0,12_notebook_05_cost_gamma_model_results_report_facing.csv,1.65 (1.56 to 1.75)
+Gamma GLM with log link for total costs,is_emergency_admission_int,Emergency admission,Cost ratio,0.7436,0.6643,0.8323,0.0,12_notebook_05_cost_gamma_model_results_report_facing.csv,0.74 (0.66 to 0.83)
+Gamma GLM with log link for total costs,older_adult_70plus,Age 70 or older,Cost ratio,0.8759,0.7988,0.9606,0.0049,12_notebook_05_cost_gamma_model_results_report_facing.csv,0.88 (0.80 to 0.96)
+Gamma GLM with log link for total costs,haematologic_cancer,Haematologic cancer,Cost ratio,1.6804,1.3829,2.0419,0.0,12_notebook_05_cost_gamma_model_results_report_facing.csv,1.68 (1.38 to 2.04)
+Logistic GLM for high-cost admission,severity_score,Severity score,Odds ratio,3.7899,3.0609,4.6926,0.0,13_notebook_05_high_cost_logistic_model_results_report_facing.csv,3.79 (3.06 to 4.69)
+Logistic GLM for high-cost admission,is_emergency_admission_int,Emergency admission,Odds ratio,0.6072,0.4346,0.8484,0.0035,13_notebook_05_high_cost_logistic_model_results_report_facing.csv,0.61 (0.43 to 0.85)
+Logistic GLM for high-cost admission,haematologic_cancer,Haematologic cancer,Odds ratio,2.9209,1.9448,4.3869,0.0,13_notebook_05_high_cost_logistic_model_results_report_facing.csv,2.92 (1.94 to 4.39)

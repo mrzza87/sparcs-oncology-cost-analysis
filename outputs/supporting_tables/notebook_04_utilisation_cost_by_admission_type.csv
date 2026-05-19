@@ -1,0 +1,5 @@
+type_of_admission,admissions,median_los,mean_los,p75_los,median_total_charges,mean_total_charges,median_total_costs,mean_total_costs,median_cost_per_day,emergency_department_percent,emergency_admission_percent,long_stay_percent,high_cost_percent
+Elective,615,3.0,5.53,5.0,89013.21,124681.73,27898.29,37422.67,9731.84,0.5,0.0,13.0,19.8
+Emergency,491,6.0,9.86,13.0,99884.06,172844.2,27703.56,48080.99,4434.51,91.6,100.0,38.3,31.8
+Urgent,110,3.0,6.78,7.75,81260.05,138499.27,24876.5,39318.7,9063.31,7.3,0.0,21.8,24.5
+Not Available,2,4.5,4.5,5.75,43756.74,43756.74,12418.37,12418.37,3390.71,0.0,0.0,0.0,0.0

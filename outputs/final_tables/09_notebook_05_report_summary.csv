@@ -1,0 +1,9 @@
+finding,value
+Model input rows,1218
+Analysis mode,final_analysis_ready
+Preferred LOS model,Negative Binomial GLM for length of stay
+Primary modelling update,Poisson LOS model showed overdispersion; Negative Binomial is used for final LOS interpretation.
+"Negative Binomial LOS model severity effect, IRR with 95% CI",1.89 (1.74 to 2.06)
+"Main cost model severity effect, cost ratio with 95% CI",1.65 (1.56 to 1.75)
+"High-cost model severity effect, OR with 95% CI",3.79 (3.06 to 4.69)
+Recommended final modelling action,"Use Negative Binomial LOS model, Gamma cost model and logistic high-cost model in the final report."

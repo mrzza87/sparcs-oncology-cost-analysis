@@ -1,0 +1,4 @@
+model_name,term,coefficient,std_error,ci_lower,ci_upper,p_value,odds_ratio,odds_ratio_ci_lower,odds_ratio_ci_upper,term_label
+Logistic model for high-cost admission,severity_score,1.3323,0.109,1.1187,1.546,0.0,3.7899,3.0609,4.6926,Severity score
+Logistic model for high-cost admission,is_emergency_admission_int,-0.4989,0.1706,-0.8334,-0.1644,0.0035,0.6072,0.4346,0.8484,Emergency admission
+Logistic model for high-cost admission,haematologic_cancer,1.0719,0.2075,0.6651,1.4786,0.0,2.9209,1.9448,4.3869,Haematologic cancer

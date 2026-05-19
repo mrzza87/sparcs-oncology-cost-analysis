@@ -1,0 +1,5 @@
+model_name,term,coefficient,std_error,ci_lower,ci_upper,p_value,cost_ratio,cost_ratio_ci_lower,cost_ratio_ci_upper,percent_change_in_costs,term_label
+Gamma GLM with log link for total costs,severity_score,0.5021,0.0301,0.4431,0.5612,0.0,1.6523,1.5575,1.7528,65.2,Severity score
+Gamma GLM with log link for total costs,is_emergency_admission_int,-0.2963,0.0575,-0.409,-0.1836,0.0,0.7436,0.6643,0.8323,-25.6,Emergency admission
+Gamma GLM with log link for total costs,older_adult_70plus,-0.1325,0.0471,-0.2247,-0.0402,0.0049,0.8759,0.7988,0.9606,-12.4,Age 70 or older
+Gamma GLM with log link for total costs,haematologic_cancer,0.519,0.0994,0.3242,0.7139,0.0,1.6804,1.3829,2.0419,68.0,Haematologic cancer

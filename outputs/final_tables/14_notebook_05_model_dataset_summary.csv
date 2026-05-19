@@ -1,0 +1,13 @@
+metric,value
+Model rows,1218.0
+Median length of stay,4.0
+Mean length of stay,7.39
+Median total costs,27048.66
+Mean total costs,41849.43
+Long-stay threshold,8.0
+High-cost threshold,47064.56
+High-cost admissions,305.0
+High-cost admissions percent,25.0
+Emergency admissions percent,40.3
+Older adult 70+ percent,39.7
+Haematologic cancer percent,12.7

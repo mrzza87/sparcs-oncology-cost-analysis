@@ -1,0 +1,5 @@
+apr_severity_of_illness,admissions,median_los,mean_los,p75_los,median_total_charges,mean_total_charges,median_total_costs,mean_total_costs,median_cost_per_day,emergency_department_percent,emergency_admission_percent,long_stay_percent,high_cost_percent
+Minor,233,1.0,2.43,3.0,64091.31,79806.37,19977.68,22693.89,11524.6,8.6,9.4,3.0,4.3
+Moderate,464,3.0,4.86,5.0,85155.82,108171.63,25620.76,30731.65,8009.68,25.2,28.7,11.6,14.2
+Major,405,6.0,9.82,12.0,113700.65,164807.01,33675.12,47624.22,4962.44,60.7,62.2,36.3,37.5
+Extreme,116,14.0,18.99,25.25,246767.9,356334.83,70572.74,104634.78,4908.57,67.2,72.4,72.4,66.4

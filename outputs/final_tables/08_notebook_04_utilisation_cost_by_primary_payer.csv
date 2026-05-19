@@ -1,0 +1,9 @@
+primary_payer,admissions,median_los,mean_los,p75_los,median_total_charges,mean_total_charges,median_total_costs,mean_total_costs,median_cost_per_day,emergency_department_percent,emergency_admission_percent,long_stay_percent,high_cost_percent
+Medicare,602,4.5,7.86,9.0,95693.03,138479.97,26968.31,39528.41,6062.07,42.9,44.7,26.7,25.1
+Medicaid,206,5.0,10.05,13.0,98888.11,184868.39,33757.12,57635.36,6200.03,51.0,53.4,32.0,35.9
+Private Health Insurance,205,3.0,5.51,6.0,92906.71,146860.27,26143.62,38436.16,8986.12,24.4,31.7,17.1,21.0
+Blue Cross/Blue Shield,159,3.0,4.98,5.0,79823.37,126276.26,25770.4,35311.52,9180.54,20.1,20.1,13.2,16.4
+"Managed Care, Unspecified",17,4.0,6.94,6.0,55273.92,104532.54,15809.33,33338.89,5194.77,29.4,23.5,17.6,23.5
+Federal/State/Local/VA,15,5.0,5.07,6.0,59154.29,115747.6,18183.9,43757.23,5364.56,33.3,33.3,13.3,20.0
+Self-Pay,10,3.5,6.8,9.0,102729.5,158236.71,37361.77,51678.54,8530.77,50.0,50.0,40.0,40.0
+Miscellaneous/Other,4,3.5,3.25,4.25,34606.66,35113.36,15322.47,17442.12,6755.51,25.0,25.0,0.0,0.0

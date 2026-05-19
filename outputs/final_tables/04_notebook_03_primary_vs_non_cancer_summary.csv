@@ -1,0 +1,3 @@
+comparison_group,admissions,median_los,mean_los,median_total_charges,median_total_costs,emergency_department_percent,emergency_admission_percent
+Non-cancer,48259,3.0,5.706334569717566,46535.45,13884.61,62.79243249963737,66.67979029818272
+Primary cancer,1218,4.0,7.388341543513957,91354.615,27048.66,37.848932676518885,40.311986863711

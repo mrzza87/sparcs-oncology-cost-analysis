@@ -1,0 +1,12 @@
+pandas
+numpy
+polars
+duckdb
+pyarrow
+matplotlib
+plotly
+statsmodels
+scikit-learn
+jupyter
+notebook
+requests

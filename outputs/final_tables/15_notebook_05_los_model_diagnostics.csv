@@ -1,0 +1,5 @@
+diagnostic,value
+pearson_chi2,12398.71
+residual_degrees_of_freedom,1213
+dispersion_ratio,10.22
+interpretation,Possible overdispersion; consider negative binomial model in final scaled dataset.

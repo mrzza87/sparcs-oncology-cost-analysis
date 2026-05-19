@@ -1,0 +1,7 @@
+check,value,status
+Main-report tables missing,0,OK
+Main-report figures missing,0,OK
+Deprecated cost figure excluded,Yes,OK
+Deprecated LOS figure excluded,Yes,OK
+Final model effects table rows,11,OK
+Master summary rows,39,OK

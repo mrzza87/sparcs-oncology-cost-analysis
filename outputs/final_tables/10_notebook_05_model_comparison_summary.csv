@@ -1,0 +1,6 @@
+model,outcome,effect_measure,status,final_interpretation_role,interpretation_status
+Poisson GLM for length of stay,Length of stay,Incidence rate ratio,success,Baseline only if overdispersed,Diagnostic baseline
+Negative Binomial GLM for length of stay,Length of stay,Incidence rate ratio,success,Preferred LOS model if Poisson overdispersed,Main LOS model
+Log-linear OLS for total costs,Log total costs,Cost ratio / percent change,success,Sensitivity cost model,Final with diagnostics
+Gamma GLM with log link for total costs,Total costs,Cost ratio / percent change,success,Main final cost model,Final with diagnostics
+Logistic model for high-cost admission,High-cost admission indicator,Odds ratio,success,Main final high-cost model,Final with diagnostics

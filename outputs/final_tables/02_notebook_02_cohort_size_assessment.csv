@@ -1,0 +1,10 @@
+assessment_item,value
+total_cleaned_rows,50000
+primary_cancer_rows,1218
+broader_cancer_related_rows,1377
+model_input_rows,1218
+minimum_primary_cancer_rows_for_final_modelling,500
+suitable_for_pipeline_testing,Yes
+suitable_for_final_modelling,Yes
+analysis_dataset_status,final_analysis_ready
+recommended_next_step,Proceed to final descriptive analysis and modelling.
